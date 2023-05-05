@@ -1,14 +1,14 @@
-package com.example.demo.controller;
+package com.example;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class OtherPackageController {
 
 	
-	@RequestMapping("/hello")
+	@RequestMapping("/othercontrol")
 	public String handl() {
-		return "hello, springboot 3";
+		return "hello, springboot 3 othercontrol";
 	}
 }
